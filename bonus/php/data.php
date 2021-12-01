@@ -15,12 +15,13 @@
     // curl_exec() executes the started curl session
     // $output contains the output string
     $output = curl_exec($curl);
-    $decodedOutput = json_decode($output, true);
+
     // close curl resource to free up system resources
     // (deletes the variable made by curl_init)
     curl_close($curl);
 
-    
+    echo $output;
+    return;
     //header("Content-Type: application/json");
     
     //json_encode($output);

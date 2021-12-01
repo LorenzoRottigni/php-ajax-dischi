@@ -1,4 +1,4 @@
-<div class="container-fluid card-containr ">
+<div class="container-fluid card-container">
     <div class="row d-flex gap-3 justify-content-center">
         <?php
             $APIresponse = $decodedOutput["response"];
