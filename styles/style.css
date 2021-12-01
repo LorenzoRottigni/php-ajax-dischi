@@ -1,0 +1,13 @@
+header {
+  height: 10vh;
+}
+header img {
+  max-height: 70%;
+}
+
+main {
+  background-color: #1e2d3b;
+  height: 90vh;
+}
+
+/*# sourceMappingURL=style.css.map */
